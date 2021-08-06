@@ -86,15 +86,23 @@ header nav{
     font-size: 14px;
 }
 
-.highway{
+/* TOP JUMBO LOGOS */
+.logo{
     display: flex;
     flex-direction: column;
-    background-image: url(../img/jumbo.jpg);
-    background-repeat: no-repeat;
-    margin: auto;
-    height: 15vh;
-
+/*     background-image: url(../img/jumbo.jpg);
+ */    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 20vh;
 }
+#highway{
+    background-image: url(../img/jumbo.jpg);
+}
+#skyline{
+    background-image: url(../img/jumbo-about.png);
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
