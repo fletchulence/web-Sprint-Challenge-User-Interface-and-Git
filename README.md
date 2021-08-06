@@ -36,10 +36,10 @@ Edit this document to include your answers after each question. Make sure to lea
       - Very basically semantic HTML is language used to allow developers an ease of use. The computer doesnt necessarily recognize the words "header", "footer" "section", it just knows them as <div>'s. But for developers, it is easier to lay out in such a way with more terms than one. Semantic HTML is more proper when working in teams (easier for all to read) so it is more appropriate.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
-        - inline elements only occupies width it needs on the page <span> <a>
+        side note..- inline elements only occupies width it needs on the page <span> <a>
         - block elements take up the whole width of the page,, <h1> <div>.. 
             
-            side note..do we consider elements that we manipulate to display: flex as new elements? i mean they are still 'block elements,' so we just specify the area they take up 
+        side note..do we consider elements that we manipulate to display: flex as new elements? i mean they are still 'block elements,' so we just specify the area they take up 
 
 3. What are the 4 areas of the box model?
         - margin(outer), border, padding, content
