@@ -47,10 +47,15 @@ table {
 	border-spacing: 0;
 }
 
-* {
+/* universal selectors */
+*{
     box-sizing: border-box;
-}
-
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+ }
+/* standard selectors */
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
@@ -66,6 +71,30 @@ p {
     line-height: 1.4;
 }
 
+/* header selectors */
+header{
+    width: 100%;
+
+}
+
+header nav{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+.highway{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/jumbo.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 15vh;
+
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -95,22 +124,23 @@ p {
     margin-bottom: 0;
 }
 
+/* BOXES */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* box colors */
+.teal{background-color: teal;}.gold{background-color: gold;}.cadetblue{background-color: cadetblue;}.coral{background-color: coral;}.crimson{background-color: crimson;}.forestgreen{background-color: forestgreen;}.darkorchid{background-color: darkorchid}.hotpink{background-color: hotpink;}.indigo{background-color: indigo;}.dogerblue{background-color: dodgerblue;}
 
 .bottom-content {
     display: flex;
