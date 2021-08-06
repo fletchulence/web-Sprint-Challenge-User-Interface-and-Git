@@ -90,8 +90,7 @@ header nav{
 .logo{
     display: flex;
     flex-direction: column;
-/*     background-image: url(../img/jumbo.jpg);
- */    background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 20vh;
@@ -183,19 +182,34 @@ footer nav a {
     text-decoration: none;
 }
 
-/* about section */
+/* ABOUT */
+/* TOP ABOUT */
 .top-content .top-about-container{
     width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-.top-content .middle-about{
+
+/* MIDDLE */
+.middle-about{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.middle-about .text-container{
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+    border-bottom: 1px dashed black;
+}
+.middle-about{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+/* BOTTOM */
 .bottom-about{
     margin: 0 2% 20px;
 }
