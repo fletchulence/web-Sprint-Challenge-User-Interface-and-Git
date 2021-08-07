@@ -33,14 +33,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+      - Very basically semantic HTML is language used to allow developers an ease of use. The computer doesnt necessarily recognize the words "header", "footer" "section", it just knows them as <div>'s. But for developers, it is easier to lay out in such a way with more terms than one. Semantic HTML is more proper when working in teams (easier for all to read) so it is more appropriate.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+        side note..- inline elements only occupies width it needs on the page <span> <a>
+        - block elements take up the whole width of the page,, <h1> <div>.. 
+            
+        side note..do we consider elements that we manipulate to display: flex as new elements? i mean they are still 'block elements,' so we just specify the area they take up 
 
 3. What are the 4 areas of the box model?
+        - margin(outer), border, padding, content
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+        - the perpendicular axis of flow.
 
 5. Explain why git is valuable to a team of developers.
+        - git is helpful for teams because it allows a group to track changes made. This helps task managment as well as provides insight into debugging/errors if any - the group can track them back to the source. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -66,8 +74,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [ $ ] Build the HTML and CSS to create the missing navigation and header.
+* [ $ ] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box (Note: inline styles are not acceptable. All styles should be written in your index.css file):
 
@@ -86,9 +94,9 @@ You will also notice there are 10 boxes on the home page that need background co
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
+* [ $ ] Copy and paste your home page navigation and header into the about page
+* [ $ ] Update the header image with the about page image
+* [ $ ] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
